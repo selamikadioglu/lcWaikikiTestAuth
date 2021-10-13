@@ -1,0 +1,36 @@
+2021-10-13 23:44:48,102 INFO  [Log] onHomePage() PASSED 
+2021-10-13 23:44:51,773 INFO  [Log] goToLogin() PASSED 
+2021-10-13 23:44:52,267 INFO  [Log] searchProduct() PASSED 
+2021-10-13 23:44:52,563 ERROR [Log] selectProduct() FAILED with cause : javascript error: Cannot read properties of null (reading 'scrollHeight')
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U4VE1EV', ip: '192.168.151.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Selami\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b94c70728386899a443adaff64e2b12c 
+2021-10-13 23:44:52,587 ERROR [Log] addToCart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"  a[data-tracking-label='BedenSecenekleri']"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U4VE1EV', ip: '192.168.151.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Selami\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b94c70728386899a443adaff64e2b12c
+*** Element info: {Using=css selector, value=  a[data-tracking-label='BedenSecenekleri']} 
+2021-10-13 23:44:52,592 INFO  [Log] priceControl() PASSED 
+2021-10-13 23:44:56,514 ERROR [Log] goToCart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"a[class='oq-up plus']"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-U4VE1EV', ip: '192.168.151.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\Selami\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b94c70728386899a443adaff64e2b12c
+*** Element info: {Using=css selector, value=a[class='oq-up plus']} 
+2021-10-13 23:46:01,616 INFO  [Log] onHomePage() PASSED 
+2021-10-13 23:46:05,515 INFO  [Log] goToLogin() PASSED 
+2021-10-13 23:46:07,014 INFO  [Log] searchProduct() PASSED 
+2021-10-13 23:46:11,859 INFO  [Log] selectProduct() PASSED 
+2021-10-13 23:46:12,832 INFO  [Log] addToCart() PASSED 
+2021-10-13 23:46:12,833 INFO  [Log] priceControl() PASSED 
+2021-10-13 23:46:18,296 INFO  [Log] goToCart() PASSED 
